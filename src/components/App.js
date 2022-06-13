@@ -17,7 +17,7 @@ const [inputval,inputVAl2] = useState("");
   return (
     <div id="main">
       <h1>Font Picker</h1>
-      <input type="range" value={Fontsize} min="16" max="32" onChange={(e)=> setFont(e.target.value)}/>
+      <input type="range" value={Fontsize} min="16" max="32" onChange={(e)=> setFont(e.target.value)} id ="fontSize-input"/>
       <br />
       <input id="char-limit-input" type="number" onChange={(e)=> setLimit(e.target.value)}/>
       <br />
